@@ -9,7 +9,55 @@
     <link rel="icon" href="res/images/Favicon.ico">
 </head>
 <body>
-here we have body
+<div>
+    <h1>My Dashboard</h1>
+    <br />
+    <img src="res/images/me.png" alt="Teacher" height="120">
+
+</div>
+<div>
+    <ul>
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+        <li><a href="https://courses.cs.ut.ee/2022/WAD/fall/Main/PS02html">WAD</a></li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>#</th>
+            <th>Course Title</th>
+            <th>Website</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>WAD</td>
+            <td><a href="https://courses.cs.ut.ee/2022/WAD/fall/Main/PS02html" target="_blank">Link</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Google</td>
+            <td><a href="https://google.com" target="_blank">Link</a></td>
+        </tr>
+
+    </table>
+
+</div>
+<br />
+<br />
+<br />
+<form action="" method="post">
+    Course Title:
+    <input type="text" name="course_title" id=""> <br />
+    Semester: <br />
+    <select name="semester" id="fall">
+        <option>Fall</option>
+        <option>Spring</option>
+        </select>
+    <br />
+    <strong>Attendance</strong> <br />
+    <input type="radio" name="attendance" value="virtual_attendance" id="virtual_attendance"> Virtual Attendance <br />
+    <input type="radio" name="attendance" value="physical_attendance" id="physical_attendance"> Physical Attendance
+    <button type="submit">Submit</button>
+</form>
 
 </body>
 </html>
